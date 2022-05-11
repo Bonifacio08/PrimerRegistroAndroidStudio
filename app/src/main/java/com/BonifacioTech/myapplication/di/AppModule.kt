@@ -27,7 +27,7 @@ object AppModule {
     }
 
     @Provides
-    fun ProvidePersonaDAO(registroDb: RegistroDb): PersonaDao{
-        return registroDb.PersonaDao
+    fun ProvidePersonaDAO(registroDb: RegistroDb): PersonaDao {
+        return registroDb.personaDao
     }
 }
