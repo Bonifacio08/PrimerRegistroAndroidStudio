@@ -17,9 +17,7 @@ interface PersonaDao {
 
     @Query("SELECT * FROM  Personas ORDER BY personaId")
 
-    fun GetLista(): Flow<list<Persona>>
-
-
+    fun GetLista(): Flow<List<Persona>>
 
 
 }
