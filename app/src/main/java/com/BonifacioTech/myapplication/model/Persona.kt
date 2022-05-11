@@ -9,7 +9,7 @@ import kotlinx.parcelize.Parcelize
 @Parcelize
 data class Persona(
     @PrimaryKey(autoGenerate = true)
-    val PersonaId: Int,
+    val personaId: Int,
     val Nombres: String,
     val Email: String,
     val OcupacionId: Int,
