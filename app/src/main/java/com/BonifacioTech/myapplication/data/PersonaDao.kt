@@ -2,7 +2,7 @@ package com.BonifacioTech.myapplication.data
 
 import androidx.room.*
 import com.BonifacioTech.myapplication.model.Persona
-import java.util.concurrent.Flow
+import kotlinx.coroutines.flow.Flow
 
 @Dao
 interface PersonaDao {
